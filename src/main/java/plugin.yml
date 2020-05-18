@@ -1,0 +1,13 @@
+name: TestPlugin
+version: 0.1
+description: test plugin.
+author: ecolight
+website: forum.minecraftuser.jp
+#---
+main: jp.minecraftuser.test_plugin.TestPlugin
+api-version: 1.14
+
+commands:
+  test:
+    description: this is a sample command.
+    usage: /<command>
